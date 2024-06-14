@@ -15,13 +15,5 @@ public class Book extends Item{
         super.print();
         System.out.println("저자: " + author + "ISBN: " + isbn );
     }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public String getIsbn() {
-        return isbn;
-    }
 }
 
